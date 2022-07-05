@@ -1,0 +1,11 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 75px;
+}

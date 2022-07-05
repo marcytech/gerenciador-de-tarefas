@@ -1,0 +1,52 @@
+.done {
+  text-decoration: line-through;
+  color: rgb(65, 122, 197);
+}
+
+h1{
+  color: #45cf8d;
+  font-size: 16px;
+  padding-bottom: 1rem;
+  font-family: 'Roboto', sans-serif;
+}
+.registered {
+	display:flexbox;
+  flex-wrap: wrap;
+	width: 100%;
+  max-width: 880px;
+  background: #fff;
+	margin-left: auto;
+	margin-right: auto;
+  border-radius: 5px;
+  position:fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.controls {
+  position: absolute;
+  top: -65px;
+  display:flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.gap-left{
+  margin-left: 1rem;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  color: #45cf8d;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  padding: 15px;
+  background: #f9f9f9;
+}
+li > input {
+  margin-right: .5rem ;
+}
+

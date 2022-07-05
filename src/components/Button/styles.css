@@ -1,0 +1,100 @@
+body {
+  background:#50D696 ;
+  text-align: center;
+  
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  height:50px;
+  font-size:35px;
+  border:none;
+  cursor: pointer;
+}
+
+.btn_default{
+  padding: 1rem;
+  font-size: 1rem;
+
+}
+
+.btn_round {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  color: #fff;
+  background: #2EA682;
+}
+
+.btn_hollow {
+  font-size: 16px;
+  flex-wrap: wrap;
+  color:#E9B0B0;
+  border: 1px solid #E9B0B0;
+  border-radius: 3px;
+  text-shadow:none;
+  background: #fff;
+
+  
+}
+
+.btn_create {
+  font-size: 16px;
+  flex-wrap: wrap;
+  color: #fff;
+  border: 1px solid #45CF8D;
+  border-radius: 3px;
+  text-shadow:none;
+  background: #2EA682;
+}
+
+.btn_edit {
+  width: 100px;
+  height: 50px;
+  float: right;
+  font-size: 16px;
+  flex-wrap: wrap;
+  color: #24d17d;
+  border-radius: 3px;
+  text-shadow:none;
+  background: #fff;
+}
+
+.btn_remove {
+  width:100px;
+  height: 50px;
+  float: right;
+  font-size: 16px;
+  flex-wrap: wrap;
+  color: #de1010;
+  border-radius: 3px;
+  text-shadow:none;
+  background:#fff;
+}
+
+.btn_done {
+  width: 100px;
+  height: 50px;
+  float: right;
+  font-size: 16px;
+  flex-wrap: wrap;
+  color: #1570f0;
+  border-radius: 3px;
+  text-shadow:none;
+  background: #fff;
+}
+
+p {
+  display: block;
+  font-size:20px;
+  padding:250px;
+  color:#fff
+}
+
+
+
+
+

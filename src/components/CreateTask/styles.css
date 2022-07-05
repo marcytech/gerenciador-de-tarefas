@@ -1,0 +1,63 @@
+.rectangle {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+  max-width: 480px;
+	background: #fff;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 3px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 14999
+}
+
+h1 {
+  display: block;
+  margin: 0;
+  width: 100%;
+	font-size: 16px;
+	text-align: left;
+	padding: 1.5rem 1rem 0 1rem;
+	color: #fff
+}
+
+.title {
+  display: block;
+	width: 100%;
+	font-size: .875rem;
+	color: #45cf8d;
+	padding: 3px;
+	text-align: left;
+}
+.form {
+  width: 100%;
+  padding: 1rem;
+}
+.form input {
+	box-sizing: border-box;
+	width: 100%;
+	height: 50px;
+	background: #d7ece1;
+	border: 1px solid #45cf8d;
+	border-radius: 3px;
+	padding: 0 1rem;
+  margin-bottom: 1rem;
+}
+.grid {
+  width: 100%;
+  display: grid;
+  gap:1rem;
+  grid-template-columns: 1fr 1fr;
+}
+.btn-close {
+	position: absolute;
+  color: #ccc;
+  top:0;
+  right:1rem;
+  padding-top: 1.5rem;
+  
+}
